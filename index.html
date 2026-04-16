@@ -3,70 +3,130 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gene Fryer Photography</title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="reset.css">
+  <title>Gene Fryer | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <div class="wrapper">
+  <div class="page-frame">
+    <div class="site-panel">
 
-    <!-- HEADER -->
-    <header>
-      <h1>Gene Fryer Photography</h1>
-      <p>Capturing moments & creative visuals</p>
+      <header class="site-header">
+        <a href="index.html" class="brand">GENE FRYER</a>
 
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+        <nav class="desktop-nav">
+          <a href="about.html">Info</a>
+          <a href="gallery.html">Select Works</a>
+          <a href="contact.html">Contact</a>
+        </nav>
 
-    <!-- MAIN -->
-    <main>
+        <details class="mobile-nav">
+          <summary aria-label="Open navigation">
+            <span></span>
+            <span></span>
+          </summary>
 
-      <!-- HERO -->
-      <section class="hero">
-        <img src="images/hero.jpg" alt="Photography banner">
-        <div class="hero-text">
-          <h2>Visual storytelling through photography</h2>
-          <p>Portraits, lifestyle, and creative shoots.</p>
-        </div>
-      </section>
+          <div class="mobile-nav-menu">
+            <a href="about.html">Info</a>
+            <a href="gallery.html">Select Works</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </details>
+      </header>
 
-      <!-- ABOUT PREVIEW -->
-      <section class="about-preview">
-        <h2>About Me</h2>
-        <p>
-          I'm a photographer focused on capturing authentic moments and creative concepts.
-          I love blending storytelling with clean visuals and creating work that feels intentional.
+      <main class="home-main">
+        <p class="email-link">
+          <a href="mailto:eugene4370@gmail.com">eugene4370@gmail.com</a>
         </p>
-      </section>
 
-      <!-- FEATURED WORK -->
-      <section class="featured">
-        <h2>Featured Work</h2>
+        <section class="hero-desktop">
+          <div class="hero-title-wrap">
+            <h1 class="hero-title">
+              PORTFOLIO<br>
+              PORTFOLIO
+            </h1>
+          </div>
 
-        <div class="gallery-preview">
-          <img src="images/photo1.jpg" alt="Portrait work">
-          <img src="images/photo2.jpg" alt="Lifestyle work">
-          <img src="images/photo3.jpg" alt="Creative work">
-        </div>
-      </section>
+          <div class="hero-image-wrap">
+            <img src="images/photo15.jpg" alt="Featured portrait by Gene Fryer">
 
-    </main>
+            <div class="image-caption">
+              <h2>GENE FRYER</h2>
+              <p>Photographer &amp; Creative</p>
+            </div>
+          </div>
+        </section>
 
-    <!-- FOOTER -->
-    <footer>
-      <p>&copy; 2026 Gene Fryer Photography</p>
-    </footer>
+        <section class="hero-mobile">
+          <h1 class="hero-title-mobile">PORTFOLIO</h1>
 
+          <div class="hero-mobile-image">
+            <img src="images/photo15.jpg" alt="Featured portrait by Gene Fryer">
+          </div>
+
+          <h1 class="hero-title-mobile bottom">PORTFOLIO</h1>
+        </section>
+
+        <section class="home-bio">
+          <div class="home-bio-text">
+            <p>
+              I'm Gene, a photographer and creative based in Cincinnati. My work focuses on portraits,
+              mood, and visual storytelling through strong composition and expressive detail.
+            </p>
+
+            <p>
+              I’m drawn to images that feel cinematic and intentional while still keeping a sense of
+              honesty and personality.
+            </p>
+          </div>
+
+          <div class="home-bio-credit desktop-credit">
+            <h2>GENE FRYER</h2>
+            <p>Photographer &amp; Creative</p>
+          </div>
+        </section>
+
+        <section class="client-section">
+          <div class="client-left">
+            <h3>Client List</h3>
+          </div>
+
+          <div class="client-middle">
+            <p>Portrait Session, 2024</p>
+            <p>Creative Direction, 2024</p>
+            <p>Editorial Shoot, 2023</p>
+            <p>Visual Campaign, 2023</p>
+            <p>Collaboration Project, 2022</p>
+          </div>
+
+          <div class="client-right">
+            <p>Studio Portraits</p>
+            <p>Launch Content</p>
+            <p>Editorial Collection</p>
+            <p>Issue No. 2</p>
+            <p>Issue No. 1</p>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <div class="footer-links">
+            <a href="https://instagram.com/gene.fry" target="_blank">Instagram</a>
+            <a href="mailto:eugene4370@gmail.com">Email</a>
+          </div>
+
+          <div class="footer-email">
+            <a href="mailto:eugene4370@gmail.com">eugene4370@gmail.com</a>
+          </div>
+
+          <div class="footer-name">
+            <h2>GENE FRYER</h2>
+          </div>
+        </footer>
+      </main>
+
+    </div>
   </div>
 </body>
 </html>

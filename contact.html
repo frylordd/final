@@ -1,7 +1,92 @@
-<main>
-  <section>
-    <h2>Contact</h2>
-    <p>Email: genefryer@email.com</p>
-    <p>Instagram: @genefryer</p>
-  </section>
-</main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gene Fryer | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-frame">
+    <div class="site-panel">
+
+      <header class="site-header">
+        <a href="index.html" class="brand">GENE FRYER</a>
+
+        <nav class="desktop-nav">
+          <a href="about.html">Info</a>
+          <a href="gallery.html">Select Works</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <details class="mobile-nav">
+          <summary aria-label="Open navigation">
+            <span></span>
+            <span></span>
+          </summary>
+
+          <div class="mobile-nav-menu">
+            <a href="about.html">Info</a>
+            <a href="gallery.html">Select Works</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </details>
+      </header>
+
+      <main class="contact-main">
+        <section class="contact-intro">
+          <h1 class="contact-title">INQUIRIES</h1>
+          <p class="contact-subtitle">
+            For collaborations, bookings, or questions, fill out the form below.
+          </p>
+        </section>
+
+        <section class="contact-form-section">
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" required>
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" required>
+            </div>
+
+            <div class="form-row">
+              <label for="subject">Subject</label>
+              <input id="subject" type="text" name="subject">
+            </div>
+
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="7" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Inquiry</button>
+          </form>
+        </section>
+
+        <footer class="site-footer">
+          <div class="footer-links">
+            <a href="https://instagram.com/gene.fry" target="_blank">Instagram</a>
+            <a href="mailto:eugene4370@gmail.com">Email</a>
+          </div>
+
+          <div class="footer-email">
+            <a href="mailto:eugene4370@gmail.com">eugene4370@gmail.com</a>
+          </div>
+
+          <div class="footer-name">
+            <h2>GENE FRYER</h2>
+          </div>
+        </footer>
+      </main>
+
+    </div>
+  </div>
+</body>
+</html>
